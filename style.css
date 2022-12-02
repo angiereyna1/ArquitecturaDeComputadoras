@@ -1,0 +1,807 @@
+/* ----------------------------------------------------- */
+/*	Este bloque contiene fondos y el estilo para el body */
+/* ----------------------------------------------------- */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+div#header{	
+	width:100%;
+	height: 170px;
+	background-image: url("IMGS/fondo.jpg");
+	/* Fondo estático */
+	background-attachment: fixed;
+	/* Que el fondo no se repita */
+	background-repeat: no-repeat;
+	/* Cambiar el tamaño del fondo */
+	background-size: cover;	
+	/* Margen alrededor del contenido */	
+	text-align: center;			
+
+}
+
+body.fondo{
+	background-color: #C39BD3;
+	/* Margen alrededor del contenido */
+	margin:auto;	
+	text-align: center;
+	font-family: arial, helvetica;	
+}
+
+/* ----------------------------------------------------- */
+/*	Este bloque contiene diseño menu					 */
+/* ----------------------------------------------------- */
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: black;
+	width: 90%;
+	max-width:  480px;
+	margin:auto;	
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;	
+	padding: 10px 15px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #C39BD3;
+}
+
+/* ----------------------------------------------------- */
+/*	Este bloque contiene divs						 */
+/* ----------------------------------------------------- */
+
+div.contenido{
+	border: black 2px solid;
+	background: #D2B4DE;
+	width: 380px;       
+	position: absolute;	
+	margin-top: 2%;
+    margin-left: 20px;
+	border-radius: 8px;
+	text-align: left;    
+}
+
+div.contenido3{
+	border: black 2px solid;
+	background: #D2B4DE;
+	width: 388px;       
+	position: absolute;	
+	margin-top: 2%;
+    margin-left: 20px;
+	border-radius: 8px;
+	text-align: left;    
+}
+
+div.contenido4{
+	border: black 2px solid;
+	background: #D2B4DE;
+	width: 450px;       
+	position: absolute;	
+	margin-top: 2%;
+    margin-left: 20px;
+	border-radius: 8px;
+	text-align: left;    
+}
+
+div.unid{	
+	background: #C39BD3;		
+	position: absolute;	
+	margin-top: 2%;
+    margin-left: 30%;	
+}
+
+div.unid2{	
+	background: #C39BD3;		
+	position: absolute;	
+	margin-top: 2%;
+    margin-left: 32%;	
+}
+
+div.unid4{	
+	background: #C39BD3;		
+	position: absolute;	
+	margin-top: 2%;
+    margin-left: 37%;	
+	margin-right: 5%;
+}
+
+div.sub{
+	background: #C39BD3;
+	position: absolute; 
+	margin-top: 650px;
+	width:100%;
+}
+
+div.sub2{
+	background: #C39BD3;
+	position: absolute; 
+	margin-top: 370px;
+	width:100%;
+}
+
+div.sub3{
+	background: #C39BD3;
+	position: absolute; 
+	margin-top: 455px;
+	width:100%;
+}
+
+div.sub4{
+	background: #C39BD3;
+	margin-top: 360px;
+	position: absolute; 
+	width:100%;
+}
+
+div.info{
+	background: #AF7AC5;
+	position:relative; margin:0 auto; width:960px;
+	width:100%; float:left; 
+	/*position:fixed; bottom:0; z-index:999999; */
+
+
+}
+
+/* ----------------------------------------------------- */
+/*	Este bloque contiene parrafos						 */
+/* ----------------------------------------------------- */
+
+p.titulo{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 74px;
+	text-align:center;	
+	color: white;		
+}
+
+p.unidad{	
+	font-family: 'Edu QLD Beginner', cursive;
+	text-align: center;
+	font-size: 38px;
+	margin: auto;	
+}
+
+p.texto{
+	font-family: 'Edu QLD Beginner', cursive;
+	text-align: center;
+	font-size: 35px;
+	margin: auto;	
+	color: white;
+}
+
+ul.cont{
+	text-align:left;
+	margin-left:70px ;
+	margin-right: 25px;	
+}
+	
+p.sub{
+	font-family: 'Abel', sans-serif;
+	font-size: 28px;
+	margin: auto;	
+	color: #7D3C98;
+	font-weight: bold;
+}
+
+p.sub2{
+	font-family: 'Abel', sans-serif;
+	font-size: 23px;
+	color: #8E44AD;
+	text-align: left;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-weight: bold;
+	line-height: 1.7;
+}
+
+p.resal{
+	font-family: 'Abel', sans-serif;
+	font-size: 22px;
+	text-align: justify;	
+	margin-left: 35px;
+	margin-right: 35px;
+	line-height: 1.5;
+	font-weight: bold;
+} 
+
+p.re{
+	font-family: 'Abel', sans-serif;
+	font-size: 22px;
+	text-align: center;	
+	margin-left: 35px;
+	margin-right: 35px;
+	line-height: 1.5;
+	font-weight: bold;
+} 
+
+p.letra{
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;
+	text-align: justify;	
+	margin-left: 35px;
+	margin-right: 35px;
+	line-height: 1.5;
+}
+
+ul.viñetas{
+	font-family: 'Abel', sans-serif;
+	font-size: 20px;	
+	text-align:left;
+	margin-left:85px ;
+	margin-right: 25px;
+	list-style-type:circle;
+	line-height: 1.5;
+}
+
+/* ----------------------------------------------------- */
+/*	Este bloque contiene imagenes 						 */
+/* ----------------------------------------------------- */
+img.vn{
+	content: url("IMGS/vn.png");
+	width: 45%;	
+	display: block;
+	margin: auto;
+}
+
+img.harvard{
+	content: url("IMGS/harvard.png");
+	width: 45%;	
+	display: block;
+	margin: auto;
+}
+
+img.seg{
+	content: url("IMGS/segmentadas.png");
+	width: 40%;	
+	display: block;
+	margin: auto;
+}
+
+img.seg2{
+	content: url("IMGS/seg2.png");
+	width: 35%;	
+	display: block;
+	margin: auto;
+}
+
+img.seg3{
+	content: url("IMGS/seg3.png");
+	width: 35%;	
+	display: block;
+	margin: auto;
+}
+
+img.multi{
+	content: url("IMGS/multi.png");
+	width: 25%;	
+	display: block;
+	margin: auto;
+}
+
+img.multi2{
+	content: url("IMGS/multi2.png");
+	width: 35%;	
+	display: block;
+	margin: auto;
+}
+
+img.multi3{
+	content: url("IMGS/multi3.png");
+	width: 35%;	
+	display: block;
+	margin: auto;
+}
+
+img.multi4{
+	content: url("IMGS/multi4.png");
+	width: 35%;	
+	display: block;
+	margin: auto;
+}
+
+img.tarjmadre{
+	content: url("IMGS/tarjmadre.png");
+	width: 20%;	
+	display: block;
+	margin: auto;
+}
+
+img.cpu{
+	content: url("IMGS/cpu.PNG");
+	width: 20%;	
+	display: block;
+	margin: auto;
+}
+
+img.ram{
+	content: url("IMGS/RAM.PNG");
+	width: 20%;	
+	display: block;
+	margin: auto;
+}
+
+img.discoduro{
+	content: url("IMGS/discoduro.PNG");
+	width: 20%;	
+	display: block;
+	margin: auto;
+}
+
+img.fuenteali{
+	content: url("IMGS/fuentedealimentacion.PNG");
+	width: 20%;	
+	display: block;
+	margin: auto;
+}
+
+img.intel{
+	content: url("IMGS/intel.PNG");
+	width: 20%;	
+	display: block;
+	margin: auto;
+}
+
+img.alu{
+	content: url("IMGS/alu.PNG");
+	width: 25%;	
+	display: block;
+	margin: auto;
+}
+
+img.alu2{
+	content: url("IMGS/alu2.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.alu3{
+	content: url("IMGS/alu3.PNG");
+	width: 25%;	
+	display: block;
+	margin: auto;
+}
+
+img.registros{
+	content: url("IMGS/registros.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.registros2{
+	content: url("IMGS/registros2.PNG");
+	width: 35%;	
+	display: block;
+	margin: auto;
+}
+
+img.buses{
+	content: url("IMGS/buses.PNG");
+	width: 35%;	
+	display: block;
+	margin: auto;
+}
+
+img.buses2{
+	content: url("IMGS/buses2.PNG");
+	width: 35%;	
+	display: block;
+	margin: auto;
+}
+
+img.buses3{
+	content: url("IMGS/buses3.PNG");
+	width: 25%;	
+	display: block;
+	margin: auto;
+}
+
+img.buses4{
+	content: url("IMGS/buses4.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.memoria{
+	content: url("IMGS/memoria.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.memoria2{
+	content: url("IMGS/memoria2.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.memoria3{
+	content: url("IMGS/memoria3.PNG");
+	width: 25%;	
+	display: block;
+	margin: auto;
+}
+
+img.memoria4{
+	content: url("IMGS/memoria4.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.es{
+	content: url("IMGS/es.PNG");
+	width: 20%;	
+	display: block;
+	margin: auto;
+}
+
+img.es1{
+	content: url("IMGS/es1.PNG");
+	width: 20%;	
+	display: block;
+	margin: auto;
+}
+
+img.es2{
+	content: url("IMGS/es2.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.es3{
+	content: url("IMGS/es3.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.es4{
+	content: url("IMGS/es4.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.bus{
+	content: url("IMGS/bus.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.logo{
+	content: url("IMGS/its.PNG");
+	width: 3.9%;			
+}
+
+img.dos{
+	content: url("IMGS/dos1.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.dos2{
+	content: url("IMGS/dos2.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.dos3{
+	content: url("IMGS/dos3.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.dos4{
+	content: url("IMGS/dos4.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.dos5{
+	content: url("IMGS/dos5.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.dos6{
+	content: url("IMGS/dos6.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.dos7{
+	content: url("IMGS/dos7.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.dos8{
+	content: url("IMGS/dos8.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.dos9{
+	content: url("IMGS/dos9.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.dos10{
+	content: url("IMGS/dos10.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.dos11{
+	content: url("IMGS/dos11.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.dos12{
+	content: url("IMGS/dos12.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres{
+	content: url("IMGS/tres.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres1{
+	content: url("IMGS/tres1.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres2{
+	content: url("IMGS/tres2.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres3{
+	content: url("IMGS/tres3.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres4{
+	content: url("IMGS/tres4.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres5{
+	content: url("IMGS/tres5.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres6{
+	content: url("IMGS/tres6.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres7{
+	content: url("IMGS/tres7.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres8{
+	content: url("IMGS/tres8.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres9{
+	content: url("IMGS/tres9.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres10{
+	content: url("IMGS/tres10.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres11{
+	content: url("IMGS/tres11.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.tres12{
+	content: url("IMGS/tres12.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro{
+	content: url("IMGS/cuatro.PNG");
+	width: 45%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro1{
+	content: url("IMGS/cuatro1.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro2{
+	content: url("IMGS/cuatro2.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro3{
+	content: url("IMGS/cuatro3.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro4{
+	content: url("IMGS/cuatro4.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro5{
+	content: url("IMGS/cuatro5.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro6{
+	content: url("IMGS/cuatro6.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro7{
+	content: url("IMGS/cuatro7.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro8{
+	content: url("IMGS/cuatro8.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro9{
+	content: url("IMGS/cuatro9.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro10{
+	content: url("IMGS/cuatro10.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro11{
+	content: url("IMGS/cuatro11.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro12{
+	content: url("IMGS/cuatro12.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro13{
+	content: url("IMGS/cuatro13.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro14{
+	content: url("IMGS/cuatro14.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro15{
+	content: url("IMGS/cuatro15.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro16{
+	content: url("IMGS/cuatro16.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro17{
+	content: url("IMGS/cuatro17.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+img.cuatro18{
+	content: url("IMGS/cuatro18.PNG");
+	width: 30%;	
+	display: block;
+	margin: auto;
+}
+
+iframe {
+	/* Muestra el video como un elemento p*/
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	float: center;
+}
